@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+body{
+    background-color: #F1F5F8;
+    font-family: "Open Sans", sans-serif;
+    color: #D4B789;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    color: #c29c5f;
+    padding: 1.3rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 40rem;
+}
+.question-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.question-title p{
+    letter-spacing: 0.25rem;
+    width: 70%;
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    border: 1px solid #D4B789;
+    color: #D4B789;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    width: 2rem;
+}
+.question-text{
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+    display: none;
+
+}
+.minus-icon{
+    display: none;
+}
